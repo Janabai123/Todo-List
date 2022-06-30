@@ -1,0 +1,51 @@
+body{
+    margin:0%;
+    background-color:black;
+}
+.container{
+    width:100%;
+    margin-top:100px;
+}
+.input{
+    background-color: rgb(227, 115, 115);
+    text-align:center;
+    width:500px;
+    box-shadow:1px solid rgb(120, 109, 109);
+    margin:auto;
+}
+.task{
+    text-align:center;
+    background-color: rgb(75, 219, 238);
+    width:500px;
+    box-shadow:1px solid rgb(120, 109, 109);
+    margin:auto;
+    margin-top:5px;
+    padding:10px 0px;
+}
+.listitem{
+    border-bottom: 0.5px solid gray;
+    text-align:left;
+}
+.listitem:hover{
+    background-color: rgb(58, 226, 58);
+    color:white;
+    text-decoration:line-through;
+    cursor:pointer;
+}
+.in{
+    width:400px;
+    padding:5px;
+    border:0.5px solid gray;
+    border-radius: 5px 0px 0px 5px;
+    text-align:center;
+}
+.add{
+    border:0.5px solid gray;
+    border-radius: 0px 5px 5px 0px;
+    margin:-5px;
+    padding:5px;
+    cursor:pointer;
+}
+.add:hover{
+    opacity:0.8;
+}
